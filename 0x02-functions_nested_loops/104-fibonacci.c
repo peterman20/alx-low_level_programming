@@ -12,7 +12,7 @@ int main(void)
 		sum = num1 + num2;
 		printf("%d, ", sum);
 		num1 = num2;
-		numb2 = su;
+		num2 = sum;
 	}
 	printf("\n");
 
