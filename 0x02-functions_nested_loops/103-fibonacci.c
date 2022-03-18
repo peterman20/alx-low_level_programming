@@ -5,7 +5,6 @@
  */
 int main(void)
 {
-	int count;
 	long fib1 = 0, fib2 = 1, sumtotal, sumeven = 0;
 
 	while (1)
