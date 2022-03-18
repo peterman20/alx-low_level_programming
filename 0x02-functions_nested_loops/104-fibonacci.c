@@ -11,11 +11,11 @@ int main(void)
 	{
 		if (i == 98)
 		{
-			printf("%d, ", num2);
+			printf("%d, ", sum);
 		}
 		else
 		{
-		printf("%d, ", num2);
+		printf("%d, ", sum);
 		sum = num1 + num2;
 		num1 = num2;
 		num2 = sum;
