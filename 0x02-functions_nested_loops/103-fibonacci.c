@@ -8,9 +8,11 @@ int main(void)
 	int count;
 	long fib1 = 0, fib2 = 1, sumtotal, sumeven = 0;
 
-	for (count = 0; count < 4000000; count++)
+	while (1)
 	{
 		sumtotal = fib1 + fib2;
+		if (sumtotal > 4000000)
+			break;
 		if (sumtotal % 2 == 0)
 		{
 			sumeven += sumtotal;
